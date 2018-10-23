@@ -54,6 +54,13 @@
     .bio-image {
       width: 250px;
     }
+    .bio-text {
+      font-size: 1.25rem;
+    }
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
   }
 
 } //end mediaSm
@@ -68,6 +75,9 @@
 
   }
 
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 // Media Query Lg
@@ -91,6 +101,9 @@
     }
   }
 
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
   
 }
 
